@@ -1,0 +1,11 @@
+#test1
+#test2
+CREATE 281class 3 string string bool eecs280 eecs281 eecs376
+INSERT INTO 281 2 ROWS
+Hate 281 true
+Hate 280 false
+Hate 0 0
+#test
+PRINT FROM 281class 1 eecs376
+JOIN 281class AND doesNotExist
+QUIT

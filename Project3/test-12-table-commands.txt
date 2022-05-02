@@ -1,0 +1,23 @@
+CREATE 281class 5 string string bool int double name class isDead age grade
+INSERT INTO 281class 5 ROWS
+me junior true 20 0.0
+student1 infant false 1 12.3
+student2 dead true 100 99.9
+student3 senior false 21 59.1
+student3 fourthgrader true 10 12.22
+DELETE FROM 281class WHERE age > 100
+DELETE FROM 281class WHERE name = student12
+DELETE FROM 281class WHERE isDead > true
+DELETE FROM 281class WHERE grade < 100
+JOIN 281class AND 281class WHERE name = class AND PRINT 5 name 1 class 1 isDead 1 age 1 grade 1
+JOIN 281class AND 281class WHERE name = class AND PRINT 5 name 1 class 1 isDead 1 age 1 grades 1
+GENERATE FOR 281class bst INDEX ON grade
+INSERT INTO 281class 2 ROWS
+student4 seniorcitizen false 10000 66.6
+student5 notborn false -1 0.00
+DELETE FROM 281class WHERE age > 100
+PRINT FROM 281class 5 name class isDead age grade WHERE grade > 66.6
+PRINT FROM 281class 5 name class isDead age grade WHERE isDead = false
+REMOVE 281class
+JOIN 281class AND 281class WHERE name = class AND PRINT 1 name 1
+QUIT

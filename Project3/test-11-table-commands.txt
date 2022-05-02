@@ -1,0 +1,35 @@
+CREATE 281class 2 string bool person Y/N
+INSERT INTO 281class 5 ROWS
+sudent1 true
+student2 false
+student3 false
+student4 true
+student5 false
+GENERATE FOR 281class hash INDEX ON person
+PRINT FROM 281class 2 person Y/N ALL
+GENERATE FOR 281class bst INDEX ON Y/N
+PRINT FROM 281class 2 person Y/N WHERE Y/N > true
+PRINT FROM 281class 2 person Y/N WHERE Y/N < true
+PRINT FROM 281class 2 person Y/N WHERE Y/N = true
+PRINT FROM 281class 1 person Y/N WHERE person = student1
+PRINT FROM 281class 1 person Y/N WHERE person > student1
+PRINT FROM 281class 1 person Y/N WHERE person < student1
+DELETE FROM 281class WHERE person > student5
+INSERT INTO 281class 2 ROWS
+student6 true
+student7 false
+GENERATE FOR 281class hash INDEX ON Y/N
+INSERT INTO 281class 2 ROWS
+student8 true
+student9 false
+GENERATE FOR 281class bst INDEX ON person
+INSERT INTO 281class 2 ROWS
+student10 true
+student11 false
+DELETE FROM 281class WHERE person < student5
+DELETE FROM 281class WHERE Y/N > false
+PRINT FROM 281class 2 person Y/N All
+REMOVE 281class
+QUIT
+
+

@@ -1,0 +1,25 @@
+CREATE pets 2 string string name age
+CREATE pets 2 string string name age
+INSERT INTO pets 5 ROWS
+A 1
+B 2
+C 3
+D 4
+E 5
+INSERT INTO pet 1 ROWS
+F 6
+GENERATE FOR pets hash INDEX ON name
+INSERT INTO pets 3 ROWS
+G 7
+H 8
+I 9
+DELETE FROM pets WHERE ages < 50
+GENERATE FOR pet hash INDEX ON age
+GENERATE FOR pets hash INDEX ON ages
+GENERATE FOR pets hash INDEX ON age
+PRINT FROM pets 1 age ALL
+PRINT FROM pets 2 name ages WHERE name > A
+PRINT FROM pets 2 name age WHERE age < 5
+PRINT FROM pets 2 name age WHERE age = 1
+PRINT FROM pets 2 name age WHERE age > 1
+QUIT

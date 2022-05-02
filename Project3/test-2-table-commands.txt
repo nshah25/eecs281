@@ -1,0 +1,12 @@
+#Comment 1
+CREATE animals 3 bool bool bool dog cat rat
+INSERT INTO animals 5 ROWS
+false false false
+false false false
+false false false
+false false false
+false false false
+false false false
+PRINT FROM animals 3 cat rat dog WHERE dog = true
+JOIN animals AND reptiles WHERE dog = snake AND PRINT 5 cat
+QUIT
