@@ -1,0 +1,16 @@
+C
+13
+//Test complex
+a
+aaad!
+aa
+a[a]bc
+aaab?
+aaabb[b]
+aaa[b]ccc
+aabbcc?
+aaabbb[cd]
+aaabbbccd!
+aaabbbccc
+pls
+work
